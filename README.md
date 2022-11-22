@@ -37,6 +37,18 @@ REM 이렇게 뒷 부분은 \를 쓰지 않는 거죠
 
 하지만 윗 줄을 먼져 동일 하게 써주어야 하네요.
 
+
+### 샘플 파일들 입니다 zero_frame.bat 뼈대 이고요.  sample_file.bat 영상속 편집 파일이에요. 02는 마지막 간의 완성품 
+
+https://github.com/oklokl/secedit/blob/main/edit/zero_frame.bat 뼈대
+
+https://github.com/oklokl/secedit/blob/main/edit/sample_file.bat 처음 편집 할때 쓸수 있는
+
+https://github.com/oklokl/secedit/blob/main/edit/sample%20file02.bat 대충 임시 간의 완성품 
+
+https://github.com/oklokl/secedit/blob/main/edit_run/16.bat  완전 완성품
+
+
 [과거 글](https://github.com/oklokl/advfirewall-ip-list-firehol_level1.netset/releases/tag/secedit) 여기에 있다 이사 왔어요 ㅎㅎ 좀 복잡해지고 지저분해질까봐 이사 왔네요
 
 ## 주의사항: 윈도우는 전체 백업 하세요 secedit 잘못 적용 하면 윈도우 로그인 자체를 못하실수도 있습니다.
