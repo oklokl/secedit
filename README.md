@@ -1,7 +1,7 @@
 # secedit
 secedit edit general user 윈도우 보안 설정
 
-####[secedit 편집 실행 파일](https://github.com/oklokl/secedit/releases/tag/batch_file)
+##[secedit 편집 실행 파일](https://github.com/oklokl/secedit/releases/tag/batch_file)
 16.bat 파일 위에 cfg.ini 파일을 드래그 하면 알아서 걸러 주네요.
 
 [제작 관련 정보](https://cafe.daum.net/candan/Lrrl/5)
