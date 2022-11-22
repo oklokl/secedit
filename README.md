@@ -60,3 +60,5 @@ https://github.com/oklokl/secedit/blob/main/edit_run/16.bat  완전 완성품
 `sfc /SCANNOW` 무결성 검사 입니다. 에러가 나면 꼭 이걸 하세요.
 
 원본 파일로 복구 하시고요. 백업은 꼭 하세요.
+
+#### 유튜브 영상 https://youtu.be/j9h7OxXHnWs
