@@ -88,3 +88,11 @@ tar -cvzf d:\secedit_22.zip d:\secedit
 ```
 
 ### 다시 한번 말씀 드리지만 컴퓨터 초보자는 절대 하지 마세요
+
+기타
+
+사용자 환경이 원본이 아니고 사용 하던 경우
+
+https://github.com/oklokl/secedit/blob/main/edit/random_userbat
+
+`[ -~]*` 이 명령어를 사용 하여 초기 상태가 아니라도 해도 적용 할수 있게 할수 있네요
