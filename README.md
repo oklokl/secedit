@@ -37,6 +37,4 @@ REM 이렇게 뒷 부분은 \를 쓰지 않는 거죠
 
 하지만 윗 줄을 먼져 동일 하게 써주어야 하네요.
 
-[과거 글](https://github.com/oklokl/advfirewall-ip-list-firehol_level1.netset/releases/tag/secedit) 
-
-여기에 있다 이사 왔어요 ㅎㅎ 좀 복잡해지고 지저분해질까봐 이사 왔네요
+[과거 글](https://github.com/oklokl/advfirewall-ip-list-firehol_level1.netset/releases/tag/secedit) 여기에 있다 이사 왔어요 ㅎㅎ 좀 복잡해지고 지저분해질까봐 이사 왔네요
