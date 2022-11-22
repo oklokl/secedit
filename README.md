@@ -96,3 +96,13 @@ tar -cvzf d:\secedit_22.zip d:\secedit
 https://github.com/oklokl/secedit/blob/main/edit/random_userbat
 
 `[ -~]*` 이 명령어를 사용 하여 초기 상태가 아니라도 해도 적용 할수 있게 할수 있네요
+
+기타 
+
+https://learn.microsoft.com/ko-kr/windows-server/identity/ad-ds/manage/understand-security-identifiers
+
+S-1-5-32 이런 것들에 대한 자세한 정보.
+
+https://learn.microsoft.com/ko-kr/windows/security/threat-protection/security-policy-settings/user-rights-assignment
+
+SeNetworkLogonRight 이런것에 대한 정보
