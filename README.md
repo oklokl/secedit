@@ -62,3 +62,29 @@ https://github.com/oklokl/secedit/blob/main/edit_run/16.bat  완전 완성품
 원본 파일로 복구 하시고요. 백업은 꼭 하세요.
 
 #### 유튜브 영상 https://youtu.be/j9h7OxXHnWs
+
+기타 자신의 설정 추출 하기
+
+https://cafe.daum.net/candan/ASdB/429
+
+```
+md d:\secedit 
+secedit /export /cfg d:\secedit\cfg.ini > nul
+
+tar -cvzf d:\secedit.zip d:\secedit
+echo 만약을 위해 압축 하기
+
+notepad d:\secedit\cfg.ini
+echo 수정하기
+
+echo 적용하기
+secedit /configure /db test.sdb /cfg d:\secedit\cfg.ini
+
+echo 손상여부 확인 즉 내가 만든 것과 시스템에 적용 된 것과 같은지 비교
+secedit /validate d:\secedit\cfg.ini 
+
+echo 다시 두번째 압축
+tar -cvzf d:\secedit_22.zip d:\secedit
+```
+
+### 다시 한번 말씀 드리지만 컴퓨터 초보자는 절대 하지 마세요
