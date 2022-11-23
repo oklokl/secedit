@@ -1,2 +1,5 @@
-<https://ikcoo.tistory.com/211>
-<https://hagsig.tistory.com/26>
+https://ikcoo.tistory.com/211
+C++ windows 로컬 그룹 정책 확인
+
+https://hagsig.tistory.com/26
+배치 파일로 상태 정검 하기
