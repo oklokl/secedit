@@ -87,6 +87,11 @@ echo 다시 두번째 압축
 tar -cvzf d:\secedit_22.zip d:\secedit
 ```
 
+[secedit 초기화 명령어](https://www.tenforums.com/tutorials/68588-reset-local-security-policy-settings-default-windows.html)
+
+`secedit /configure /cfg %windir%\inf\defltbase.inf /db defltbase.sdb /verbose`
+
+
 ### 다시 한번 말씀 드리지만 컴퓨터 초보자는 절대 하지 마세요
 
 기타
