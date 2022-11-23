@@ -1,0 +1,19 @@
+REM https://kin.naver.com/qna/detail.naver?d1id=1&dirId=104&docId=433227153
+REM 모모님 조언
+
+for %%i in (
+"MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Setup\\RecoveryConsole\\SecurityLevel=4,0=5,1",
+"MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Setup\\RecoveryConsole\\SetCommand=4,0=5,5",
+"MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\CachedLogonsCount=1,\"0\"=1,\"1\""
+) do (
+for /f "tokens=1-5 delims==," %%o in ("%%~i") do (
+for /f "delims=" %%f in ('^
+$in^=get-content .\%z_files% -raw^; [regex]$pz^='%%~o^=%%~p^,%%~q'^;^
+foreach^-object^{$pz.replace^($in^,'%%~o^=%%~r^,%%~s'^) ^|set-content %z_files%^}^;'
+) do (
+echo "%%f"--
+)))
+
+:end
+pause
+endlocal
