@@ -1,0 +1,31 @@
+| %%{$_ -replace \"MinimumPasswordAge = [ -~]*\",	 \"MinimumPasswordAge = 1\" }"
+| %%{$_ -replace \"PasswordComplexity = [ -~]*\",	 \"PasswordComplexity = 1\" }"
+| %%{$_ -replace \"LockoutBadCount = [ -~]*\",	 \"LockoutBadCount = 5`nResetLockoutCount = 60`nLockoutDuration = 60`nAllowAdministratorLockout = 1\" }"
+| %%{$_ -replace \"ForceLogoffWhenHourExpire = [ -~]*\",	 \"ForceLogoffWhenHourExpire = 1\" }"
+| %%{$_ -replace \"CachedLogonsCount=[ -~]*\",	 \"CachedLogonsCount=1,0\" }"
+| %%{$_ -replace \"ForceUnlockLogon=[ -~]*\",	 \"ForceUnlockLogon=4,1\" }"
+| %%{$_ -replace \"ConsentPromptBehaviorAdmin=[ -~]*\",	 \"ConsentPromptBehaviorAdmin=4,2\" }"
+| %%{$_ -replace \"EnableVirtualization=[ -~]*\",	 \"EnableVirtualization=4,1`nMACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\FilterAdministratorToken=4,0\" }" > %temp%\19.txt
+| %%{$_ -replace \"LegalNoticeText=[ -~]*\",	 \"LegalNoticeText=7,`nMACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\MaxDevicePasswordFailedAttempts=4,4`nMACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\NoConnectedUser=4,1\" }" > %temp%\10.txt
+| %%{$_ -replace \"ValidateAdminCodeSignatures=[ -~]*\",	 \"ValidateAdminCodeSignatures=4,1`nMACHINE\Software\Policies\Microsoft\Cryptography\ForceKeyProtection=4,2\" }" > %temp%\19.txt
+| %%{$_ -replace \"FIPSAlgorithmPolicy\\Enabled=[ -~]*\",	 \"FIPSAlgorithmPolicy\Enabled=4,1\" }"
+| %%{$_ -replace \"AAA\",	 \"BBB\" }"
+| %%{$_ -replace \"NTLMMinClientSec=[ -~]*\",	 \"NTLMMinClientSec=4,537395200\" }"
+| %%{$_ -replace \"NTLMMinServerSec=[ -~]*\",	 \"NTLMMinServerSec=4,537395200`nMACHINE\System\CurrentControlSet\Control\Lsa\MSV1_0\RestrictReceivingNTLMTraffic=4,2\" }" > %temp%\15.txt
+| %%{$_ -replace \"NoLMHash=[ -~]*\",	 \"NoLMHash=4,1`nMACHINE\System\CurrentControlSet\Control\Lsa\pku2u\AllowOnlineID=4,0\" }" > %temp%\16.txt
+| %%{$_ -replace \"RestrictAnonymousSAM=[ -~]*\",	 \"RestrictAnonymousSAM=4,1`nMACHINE\System\CurrentControlSet\Control\Lsa\SubmitControl=4,0`nMACHINE\System\CurrentControlSet\Control\Lsa\UseMachineId=4,1\" }" > %temp%\17.txt
+| %%{$_ -replace \"AddPrinterDrivers=[ -~]*\",	 \"AddPrinterDrivers=4,0`nMACHINE\System\CurrentControlSet\Control\SAM\MinimumPasswordLengthAudit=4,7\" }" > %temp%\18.txt
+| %%{$_ -replace \"EnableSecuritySignature=[ -~]*\",	 \"EnableSecuritySignature=4,1\" }"
+| %%{$_ -replace \"RequireSecuritySignature=[ -~]*\",	 \"RequireSecuritySignature=4,1\" }"
+| %%{$_ -replace \"RestrictNullSessAccess=[ -~]*\",	 \"RestrictNullSessAccess=4,1`nMACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\SmbServerNameHardeningLevel=4,2\" }" > %temp%\21.txt
+| %%{$_ -replace \"RequireStrongKey=[ -~]*\",	 \"RequireStrongKey=4,1`nMACHINE\System\CurrentControlSet\Services\Netlogon\Parameters\RestrictNTLMInDomain=4,7\" }" > %temp%\22.txt
+| %%{$_ -replace \"SignSecureChannel=[ -~]*\",	 \"SignSecureChannel=4,1`nMACHINE\System\CurrentControlSet\Services\NTDS\Parameters\LdapEnforceChannelBinding=4,2`nMACHINE\System\CurrentControlSet\Services\NTDS\Parameters\LDAPServerIntegrity=4,2\" }" > %temp%\23.txt
+| %%{$_ -replace \"SeNetworkLogonRight = [ -~]*\",	 \"SeNetworkLogonRight = *S-1-5-32-544,*S-1-5-32-545\" }"
+| %%{$_ -replace \"SeChangeNotifyPrivilege = [ -~]*\",	 \"SeChangeNotifyPrivilege = *S-1-5-19,*S-1-5-20,*S-1-5-32-544,*S-1-5-32-545,*S-1-5-32-551\" }" > %temp%\25.txt
+| %%{$_ -replace \"SeServiceLogonRight = [ -~]*\",	 \"SeServiceLogonRight = *S-1-5-20\" }" 
+| %%{$_ -replace \"SeInteractiveLogonRight = [ -~]*\",	 \"SeInteractiveLogonRight = *S-1-5-32-544,*S-1-5-32-545,*S-1-5-32-551\" }"
+| %%{$_ -replace \"SeDenyNetworkLogonRight = [ -~]*\",	 \"SeDenyNetworkLogonRight = *S-1-0-0,*S-1-5-113,*S-1-5-14,*S-1-5-17,Guest,*S-1-5-32-546,*S-1-5-32-555,*S-1-5-32-568,*S-1-5-32-575,*S-1-5-32-576,*S-1-5-32-577,*S-1-5-7,*S-1-5-80-0,*S-1-5-9,*S-1-5-32-553,*S-1-5-32-571,*S-1-5-32-580,*S-1-5-32-549,*S-1-5-32-547,*S-1-5-1`nSeDenyBatchLogonRight = *S-1-0-0,*S-1-5-14,*S-1-5-17,Guest,*S-1-5-32-546,*S-1-5-32-555,*S-1-5-32-568,*S-1-5-32-575,*S-1-5-32-576,*S-1-5-32-577,*S-1-5-7,*S-1-5-9,*S-1-5-32-553,*S-1-5-32-571,*S-1-5-32-580,*S-1-5-32-549,*S-1-5-32-547,*S-1-5-32-547,*S-1-5-1`nSeDenyServiceLogonRight = *S-1-0-0,*S-1-5-14,*S-1-5-17,Guest,*S-1-5-32-546,*S-1-5-32-555,*S-1-5-32-568,*S-1-5-32-575,*S-1-5-32-576,*S-1-5-32-577,*S-1-5-7,*S-1-5-9,*S-1-5-32-553,*S-1-5-32-571,*S-1-5-32-580,*S-1-5-32-549,*S-1-5-32-547,*S-1-5-1\" }" > %temp%\28.txt
+| %%{$_ -replace \"SeRemoteInteractiveLogonRight = [ -~]*\",	 \"SeRemoteInteractiveLogonRight = Administrator`nSeDenyRemoteInteractiveLogonRight = *S-1-0-0,*S-1-1-0,*S-1-2-0,*S-1-2-1,*S-1-5-113,*S-1-5-14,*S-1-5-17,Guest,*S-1-5-32-544,*S-1-5-32-546,*S-1-5-32-555,*S-1-5-32-568,*S-1-5-32-575,*S-1-5-32-576,*S-1-5-32-577,*S-1-5-7,*S-1-5-80-0,*S-1-5-9,*S-1-5-32-553,*S-1-5-32-571,*S-1-5-32-580,*S-1-5-32-549,*S-1-5-32-547,*S-1-5-1\" }" > %temp%\29.txt
+| %%{$_ -replace \"LimitBlankPasswordUse=[ -~]*\",	 \"LimitBlankPasswordUse=4,1`nMACHINE\System\CurrentControlSet\Control\Lsa\LmCompatibilityLevel=4,5`nMACHINE\System\CurrentControlSet\Control\Lsa\MSV1_0\allownullsessionfallback=4,0\" }" > %temp%\30.txt
+| %%{$_ -replace \"SeDenyInteractiveLogonRight = [ -~]*\",	 \"SeDenyInteractiveLogonRight = *S-1-0-0,*S-1-5-14,*S-1-5-17,Guest,*S-1-5-32-546,*S-1-5-32-555,*S-1-5-32-568,*S-1-5-32-575,*S-1-5-32-576,*S-1-5-32-577,*S-1-5-7,*S-1-5-9,*S-1-5-32-553,*S-1-5-32-571,*S-1-5-32-580,*S-1-5-32-549,*S-1-5-32-547,*S-1-5-1\" }" > %temp%\31.txt
+| %%{$_ -replace \"AAA\",	 \"BBB\" }" > cfgout.ini
