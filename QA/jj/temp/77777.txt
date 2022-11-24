@@ -1,0 +1,49 @@
+미완성 단어가 길어서 만들다 포기 ㅋㅋ 어짜피 한줄로 쓸수 밖에 없는 것 같아서. 
+영상을 참조 하세요.
+
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem | %%{$_ -replace \"MinimumPasswordAge = [ -~]*\",	 \"MinimumPasswordAge = 1\" }" | %%{$_ -replace \"PasswordComplexity = [ -~]*\",	 \"PasswordComplexity = 1\" }" | %%{$_ -replace \"LockoutBadCount = [ -~]*\",	 \"LockoutBadCount = 5`nResetLockoutCount = 60`nLockoutDuration = 60`nAllowAdministratorLockout = 1\" }" | %%{$_ -replace \"ForceLogoffWhenHourExpire = [ -~]*\",	 \"ForceLogoffWhenHourExpire = 1\" }" | %%{$_ -replace \"CachedLogonsCount=[ -~]*\",	 \"CachedLogonsCount=1,0\" }" | %%{$_ -replace \"ForceUnlockLogon=[ -~]*\",	 \"ForceUnlockLogon=4,1\" }" | %%{$_ -replace \"ConsentPromptBehaviorAdmin=[ -~]*\",	 \"ConsentPromptBehaviorAdmin=4,2\" }" > %temp%\2.txt }"
+
+PowerShell -Command "& {Get-Content """%temp%\2.txt""" -Encoding oem | %%{$_ -replace \"EnableVirtualization=[ -~]*\",	 \"EnableVirtualization=4,1`nMACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\FilterAdministratorToken=4,0\" }" > %temp%\3.txt }"
+
+PowerShell -Command "& {Get-Content """%temp%\3.txt""" -Encoding oem | %%{$_ -replace \"LegalNoticeText=[ -~]*\",	 \"LegalNoticeText=7,`nMACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\MaxDevicePasswordFailedAttempts=4,4`nMACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\NoConnectedUser=4,1\" }" > %temp%\4.txt }"
+
+PowerShell -Command "& {Get-Content """%temp%\4.txt""" -Encoding oem | %%{$_ -replace \"ValidateAdminCodeSignatures=[ -~]*\",	 \"ValidateAdminCodeSignatures=4,1`nMACHINE\Software\Policies\Microsoft\Cryptography\ForceKeyProtection=4,2\" }" > %temp%\5.txt }"
+
+PowerShell -Command "& {Get-Content """%temp%\5.txt""" -Encoding oem | %%{$_ -replace \"FIPSAlgorithmPolicy\\Enabled=[ -~]*\",	 \"FIPSAlgorithmPolicy\Enabled=4,1\" }" | %%{$_ -replace \"NTLMMinClientSec=[ -~]*\",	 \"NTLMMinClientSec=4,537395200\" }" > %temp%\6.txt }"
+
+PowerShell -Command "& {Get-Content """%temp%\6.txt""" -Encoding oem | %%{$_ -replace \"NTLMMinServerSec=[ -~]*\",	 \"NTLMMinServerSec=4,537395200`nMACHINE\System\CurrentControlSet\Control\Lsa\MSV1_0\RestrictReceivingNTLMTraffic=4,2\" }" > %temp%\7.txt }"
+
+PowerShell -Command "& {Get-Content """%temp%\7.txt""" -Encoding oem | %%{$_ -replace \"NoLMHash=[ -~]*\",	 \"NoLMHash=4,1`nMACHINE\System\CurrentControlSet\Control\Lsa\pku2u\AllowOnlineID=4,0\" }" > %temp%\8.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
+
