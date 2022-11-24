@@ -48,6 +48,8 @@ https://github.com/oklokl/secedit/blob/main/edit/sample%20file02.bat 대충 임�
 
 https://github.com/oklokl/secedit/blob/main/edit_run/16.bat  완전 완성품
 
+https://github.com/oklokl/secedit/blob/main/edit_run/v3.bat 완성품 아무 환경이나 적용 되게 했어요 위의 다른 것들은 사용자의 초기 상태에서 환경에 맞는 경우만 되지만 이것은 아무 환경이나 가능 하네요 ㅎㅎ. 결론이죠.
+
 
 [과거 글](https://github.com/oklokl/advfirewall-ip-list-firehol_level1.netset/releases/tag/secedit) 여기에 있다 이사 왔어요 ㅎㅎ 좀 복잡해지고 지저분해질까봐 이사 왔네요
 
