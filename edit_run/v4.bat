@@ -85,5 +85,9 @@ type %temp%\31.txt | powershell -Command "$input | ForEach-Object { $_ -replace 
 
 :end
 
+REM 관련 정보
+REM https://youtu.be/46c7Fd6ynUI 
+REM https://cafe.daum.net/candan/Lrrl/5
+
 endlocal
 pause
