@@ -116,3 +116,13 @@ S-1-5-32 이런 것들에 대한 자세한 정보.
 https://learn.microsoft.com/ko-kr/windows/security/threat-protection/security-policy-settings/user-rights-assignment
 
 SeNetworkLogonRight 이런것에 대한 정보
+
+https://learn.microsoft.com/ko-kr/windows-server/identity/ad-ds/manage/understand-security-identifiers
+
+S-1-5-32 이런 것들에 대한 자세한 정보.
+
+***
+
+추가 정보 실행 속도 올려 보기 시도. https://github.com/oklokl/secedit/tree/main/QA/jj/temp 샘플 파일
+
+https://youtu.be/I38sYYbUZVs 유튜브 만들다가 포기 어쩌피 긴 줄이 많아서 만들어도 차이가 없어서 포기 ㅎㅎ 
