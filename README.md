@@ -66,7 +66,7 @@ https://github.com/oklokl/secedit/blob/main/edit_run/v4.bat 완성품 아무 환
 
 원본 파일로 복구 하시고요. 백업은 꼭 하세요.
 
-#### 유튜브 영상 https://youtu.be/j9h7OxXHnWs , https://youtu.be/jxx36SoHbzU 쉽게 변경
+#### 유튜브 영상 https://youtu.be/j9h7OxXHnWs , https://youtu.be/jxx36SoHbzU 쉽게 변경 , https://youtu.be/46c7Fd6ynUI 다양한 환경에
 
 기타 자신의 설정 추출 하기
 
