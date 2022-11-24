@@ -1,5 +1,5 @@
 미완성 단어가 길어서 만들다 포기 ㅋㅋ 어짜피 한줄로 쓸수 밖에 없는 것 같아서. 
-영상을 참조 하세요.
+영상을 참조 하세요. https://youtu.be/I38sYYbUZVs
 
 PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
 PowerShell -Command "& {Get-Content """!DropPath!""" -Encoding oem 77777777777777 > %temp%\3.txt }"
